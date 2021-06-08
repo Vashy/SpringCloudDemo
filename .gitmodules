@@ -4,3 +4,6 @@
 [submodule "SpringCloudConfigServerRepo"]
 	path = SpringCloudConfigServerRepo
 	url = https://github.com/Vashy/SpringCloudConfigServerRepo.git
+[submodule "SpringCloudEurekaServer"]
+	path = SpringCloudEurekaServer
+	url = https://github.com/Vashy/SpringCloudEurekaServer.git
