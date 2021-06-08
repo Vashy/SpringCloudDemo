@@ -7,3 +7,6 @@
 [submodule "SpringCloudEurekaServer"]
 	path = SpringCloudEurekaServer
 	url = https://github.com/Vashy/SpringCloudEurekaServer.git
+[submodule "SpringCloudDemoFirstClientApp"]
+	path = SpringCloudDemoFirstClientApp
+	url = https://github.com/Vashy/SpringCloudDemoFirstClientApp.git
