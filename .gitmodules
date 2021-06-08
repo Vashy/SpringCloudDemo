@@ -1,0 +1,3 @@
+[submodule "SpringCloudDemoConfigServer"]
+	path = SpringCloudDemoConfigServer
+	url = https://github.com/Vashy/SpringCloudDemoConfigServer.git
