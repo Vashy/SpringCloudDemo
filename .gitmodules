@@ -10,3 +10,6 @@
 [submodule "SpringCloudDemoFirstClientApp"]
 	path = SpringCloudDemoFirstClientApp
 	url = https://github.com/Vashy/SpringCloudDemoFirstClientApp.git
+[submodule "SpringCloudDemoSecondClientApp"]
+	path = SpringCloudDemoSecondClientApp
+	url = https://github.com/Vashy/SpringCloudDemoSecondClientApp.git
