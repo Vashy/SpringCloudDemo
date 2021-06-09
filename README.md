@@ -18,3 +18,4 @@ Applications are separated in [Git submodules](https://git-scm.com/book/en/v2/Gi
 
 - [Externalized configuration](https://microservices.io/patterns/externalized-configuration.html)
 - [Service Registry](https://microservices.io/patterns/service-registry.html) and [Service Discovery](https://microservices.io/patterns/client-side-discovery.html) with [Netflix Eureka](https://github.com/Netflix/eureka)
+- `TODO` [Distributed Tracing](https://microservices.io/patterns/observability/distributed-tracing.html) (Sleuth, Zipkin)
