@@ -1,3 +1,6 @@
+## Work in progress
+This project is currently under development.
+
 # Spring Cloud Demo
 
 A base example of a dockerized Spring Cloud architecture.
