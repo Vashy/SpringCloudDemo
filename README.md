@@ -28,3 +28,13 @@ Create a `docker network` to let containers communicate to each other:
 
 In submodules, `spring-cloud-app` will be assumed as network name.
 
+# Startup
+
+- Boot applications in the following order:
+  - Config Server
+  - Eureka Server
+  - All others (First Client App, Second Client App)
+- Navigate to Eureka (http://localhost:8761)
+- Navigate through SECOND-CLIENT-APP link 
+- Call http://{ip}/example
+
