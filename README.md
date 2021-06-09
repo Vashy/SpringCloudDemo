@@ -19,3 +19,12 @@ Applications are separated in [Git submodules](https://git-scm.com/book/en/v2/Gi
 - [Externalized configuration](https://microservices.io/patterns/externalized-configuration.html)
 - [Service Registry](https://microservices.io/patterns/service-registry.html) and [Service Discovery](https://microservices.io/patterns/client-side-discovery.html) with [Netflix Eureka](https://github.com/Netflix/eureka)
 - `TODO` [Distributed Tracing](https://microservices.io/patterns/observability/distributed-tracing.html) (Sleuth, Zipkin)
+
+## Configuration
+
+Create a `docker network` to let containers communicate to each other:
+
+    docker network create spring-cloud-app
+
+In submodules, `spring-cloud-app` will be assumed as network name.
+
