@@ -1,0 +1,51 @@
+version: "3"
+
+services:
+
+  config-server:
+    image: config-server
+    build: ./SpringCloudDemoConfigServer
+    ports:
+      - "8888:8888"
+    networks:
+      - spring-cloud-app
+    restart: always
+
+  eureka-server:
+    image: eureka-server
+    build: ./SpringCloudEurekaServer
+    ports:
+      - "8761:8761"
+    networks:
+      - spring-cloud-app
+    depends_on:
+      - config-server
+    restart: always
+
+  first-client-app:
+    image: first-client-app
+    build: ./SpringCloudDemoFirstClientApp
+    ports:
+      - "8890:8890"
+    networks:
+      - spring-cloud-app
+    depends_on:
+      - config-server
+      - eureka-server
+    restart: always
+
+  second-client-app:
+    image: second-client-app
+    build: ./SpringCloudDemoSecondClientApp
+    ports:
+      - "8891:8891"
+    networks:
+      - spring-cloud-app
+    depends_on:
+      - config-server
+      - eureka-server
+    restart: always
+
+networks:
+  spring-cloud-app:
+    external: true
