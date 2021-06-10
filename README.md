@@ -30,10 +30,11 @@ In submodules, `spring-cloud-app` will be assumed as network name.
 
 # Startup
 
-- Boot applications in the following order:
-  - Config Server
-  - Eureka Server
-  - All others (First Client App, Second Client App)
+Launch the following command to boot application:
+
+    docker-compose up
+
+- Boot applications via the previous command
 - Navigate to Eureka (http://localhost:8761)
 - Navigate through SECOND-CLIENT-APP link 
 - Call http://{ip}/example
