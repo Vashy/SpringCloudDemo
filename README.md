@@ -30,12 +30,12 @@ In submodules, `spring-cloud-app` will be assumed as network name.
 
 # Startup
 
-Launch the following command to boot application:
+Launch the following command to run the application:
 
     docker-compose up
 
 - Boot applications via the previous command
-- Navigate to Eureka (http://localhost:8761)
+- Navigate through Eureka (http://localhost:8761)
 - Navigate through SECOND-CLIENT-APP link 
-- Call http://{ip}/example
+- Call `http://{ip}/example`
 
